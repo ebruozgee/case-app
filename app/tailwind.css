@@ -4,9 +4,23 @@
 
 html,
 body {
-  @apply bg-white dark:bg-gray-950;
+  @apply bg-gray-100 dark:bg-gray-800;
 
   @media (prefers-color-scheme: dark) {
     color-scheme: dark;
   }
+}
+
+.slick-list {
+  height: 430px;
+}
+
+.ant-carousel .slick-dots li button {
+  background: blue;
+  /* Nokta rengini değiştir */
+}
+
+.ant-carousel .slick-dots li.slick-active button {
+  background: blue;
+  /* Nokta rengini değiştir */
 }
